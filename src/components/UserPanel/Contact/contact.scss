@@ -1,0 +1,19 @@
+.contactpageheader {
+  width: 100%;
+  height: 70vh;
+}
+
+.contactheaderbox {
+  width: 100%;
+  height: 55vh;
+  background-image: url(../img/Contactuspagebg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contactheaderbox h1{
+   font-size: 3rem;
+   color:#274C5B;
+}

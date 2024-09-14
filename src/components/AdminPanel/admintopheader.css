@@ -1,0 +1,25 @@
+.topicons{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   border-bottom: 1px solid black;
+}
+.topicons input{
+   width: 40%;
+   height: 3rem;
+   margin-left: 5rem;
+   font-size: large;
+   border: none;
+   outline: none;
+   border-radius: 15px;
+   padding-left: 30px;
+
+}
+.topicons h3{
+   margin-right: 5rem;
+   font-size: 1.5rem;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: 400;
+}

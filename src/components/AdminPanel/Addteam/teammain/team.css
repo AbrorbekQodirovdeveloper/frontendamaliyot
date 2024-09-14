@@ -1,0 +1,104 @@
+.team {
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  background-color: whitesmoke;
+}
+
+.team h1 {
+  text-align: center;
+}
+
+.teambox {
+  width: 100%;
+  height: auto;
+  min-height: 90vh;
+}
+
+.openmodal {
+  position: absolute;
+  right: 3%;
+  padding: 15px 35px;
+  background-color: rgb(24, 190, 24);
+  border: none;
+  font-size: large;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.closebtn {
+  position: absolute;
+  margin-top: 10rem;
+  right: 5%;
+  padding: 10px 10px;
+  background-color: transparent;
+  border: none;
+  font-size: large;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.closebtn i {
+  font-size: 2rem;
+  color: red;
+}
+
+.table-container {
+  margin: 0 auto;
+  margin-top: 8rem;
+  overflow-x: auto;
+  height: auto;
+  border-radius: 8px;
+  width: 98%;
+  padding: 20px;
+}
+
+.teambox .table-container table {
+  width: 60%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.teambox.table-container table th, td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.teambox .table-container .table th {
+  background-color: #ddb815;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+tr {
+  background-color: #f8f8f8;
+  transition: background-color 0.3s ease;
+}
+
+tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+td img {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  th, td {
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=team.css.map */

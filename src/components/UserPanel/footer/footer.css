@@ -1,0 +1,139 @@
+footer {
+  width: 100%;
+  min-height: 40vh;
+  height: auto;
+  background-color: white;
+  margin-top: 8rem;
+}
+
+.footerbox {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+}
+
+.contactus {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 40%;
+  height: 100%;
+}
+
+.footerlogo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo p {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 2rem;
+}
+
+.footericons {
+  width: 90%;
+  min-height: 10vh;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  gap: 1.5rem;
+  margin-left: 2rem;
+}
+
+.icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #EFF6F1;
+}
+
+.icon li a i {
+  font-size: xx-large;
+  color: #274C5B;
+}
+
+.unity {
+  width: 30%;
+  height: 100%;
+}
+
+.unity h1 {
+  color: #274C5B;
+  font-size: 2.2rem;
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+}
+
+.unity li {
+  margin-left: 3rem;
+  margin-top: 1.2rem;
+}
+
+.unity li a {
+  font-size: larger;
+  color: #525C60;
+}
+
+.contactbox {
+  width: 70%;
+  height: 100%;
+}
+
+.contactbox h1 {
+  color: #274C5B;
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  text-align: end;
+}
+
+.email {
+  margin-top: 1.5rem;
+}
+
+.email h2 {
+  color: #274C5B;
+  text-align: end;
+}
+
+.email p {
+  text-align: end;
+  line-height: 25px;
+}
+
+.phone {
+  margin-top: 1.5rem;
+}
+
+.phone h2 {
+  color: #274C5B;
+  text-align: end;
+}
+
+.phone p {
+  text-align: end;
+  line-height: 25px;
+}
+
+.address {
+  margin-top: 1.5rem;
+}
+
+.address h2 {
+  color: #274C5B;
+  text-align: end;
+}
+
+.address p {
+  text-align: end;
+  line-height: 25px;
+}/*# sourceMappingURL=footer.css.map */

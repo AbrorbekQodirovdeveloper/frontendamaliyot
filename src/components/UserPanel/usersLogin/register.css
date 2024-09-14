@@ -1,0 +1,95 @@
+.register{
+
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+   justify-content: center;
+   background-color: rgb(15, 13, 13);
+
+}
+.register-container{
+  width: 30%;
+  height: 70vh;
+
+  display: flex;
+   align-items: center;
+  justify-content: center;
+  background:  #2f3d2f;
+  border-radius: 20px;
+
+}
+.register-form{
+   height: auto;
+   width: 90%;
+}
+.register-form button{
+   width: 100%;
+   height: 3rem;
+   border-radius: 20px;
+   margin-top: 2rem;
+   border: none;
+   background: greenyellow;
+   font-size: xx-large;
+   color:#ffffff;
+   cursor: pointer;
+}
+.register-container .register-form form{
+   width: 100%;
+
+
+
+}
+.register-form span a{
+    font-size: x-large;
+    color: #fff;
+}
+.register-form span a:hover{
+  font-size: x-large;
+  color:  rgb(28, 197, 28);
+}
+.logininp{
+    width: 90%;
+    display: block;
+
+    height: auto;
+}
+
+.registerinp label{
+   display: block;
+   color: #fff;
+   font-size: x-large;
+   margin-top: 1em;
+}
+.registerinp input{
+   width: 100%;
+   display: block;
+   height: 3rem;
+   border-radius: 15px;
+   border: none;
+   margin-top: 20px;
+   font-size: x-large;
+   padding-left: 20px;
+  outline: none;
+
+}
+.register-form button:hover{
+
+  height: 3rem;
+  border-radius: 20px;
+  margin-top: 2rem;
+  border: none;
+  color: #ffff;
+  font-size: xx-large;
+  background-color: rgb(37, 104, 37);
+  cursor: pointer;
+}
+.formlink{
+   width: 100%;
+   height: 5vh;
+
+   margin-top: 1rem;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}

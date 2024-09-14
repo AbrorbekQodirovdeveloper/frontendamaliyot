@@ -1,0 +1,66 @@
+.homeheader{
+   max-width: 100%;
+   min-height: 100vh;
+   height: auto;
+   background-color:  whitesmoke;
+
+
+}
+.hometopheader{
+   margin-top: 10rem;
+    margin-left: 15rem;
+    width:  400px;
+    height: 500px;
+  
+}
+.hometopheader h1{
+   margin-top: 20px;
+    font-size: 3.4rem;
+    color: #274C5B;
+
+}
+.hometopheader button{
+     padding: 20px 60px;
+     background-color: #EFD372;
+     cursor: pointer;
+     border: none;
+      border-radius: 10px;
+      margin-top: 20px;
+      font-size: large;
+      color: #274C5B;
+
+}
+
+@media screen and (max-width: 400px) {
+
+      .homeheader{
+          width: 100%;
+
+
+      }
+      .hometopheader{
+
+          margin: 0;
+          margin-left: 5rem;
+          margin-top: 5rem;
+      }
+      .hometopheader{
+         margin: 0 auto;
+         margin-top: 2rem;
+          width:  90%;
+          height: 500px;
+
+      }
+      .hometopheader h1{
+          font-size: 2.5rem;
+          margin-left: 2rem;
+      }
+      .hometopheader img{
+
+         margin-left: 2rem;
+     }
+     .hometopheader button{
+
+      margin-left: 2rem;
+  }
+}

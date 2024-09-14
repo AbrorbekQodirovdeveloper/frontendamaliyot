@@ -1,0 +1,18 @@
+.shoppageheader{
+   width: 100%;
+   height: 70vh;
+
+}
+.shopheaderbox{
+    width: 100%;
+    height: 55vh;
+    background-image: url(../img/shoppagebg.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shopheaderbox h1{
+     font-size: 3rem;
+     color: #274C5B;
+}

@@ -1,0 +1,58 @@
+.contactform {
+  width: 90%;
+  margin: 0 auto;
+  min-height: 90vh;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+}
+
+.inp1 {
+  width: 50%;
+  height: 15vh;
+}
+
+.inp1 input {
+  width: 90%;
+  height: 4rem;
+  margin-top: 1.5rem;
+  border: 1px solid #7EB693;
+  border-radius: 20px;
+  padding-left: 20px;
+  font-size: x-large;
+}
+
+.allinputs label {
+  font-size: larger;
+  color: #274C5B;
+  margin-bottom: 1rem;
+}
+
+.allinputs {
+  width: 1250px;
+  min-height: 65vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+textarea {
+  border-radius: 20px;
+  padding-left: 20px;
+  font-size: xx-large;
+  padding-top: 30px;
+  width: 95%;
+  border: 1px solid #7EB693;
+  height: 30vh;
+}
+
+.allinputs button {
+  width: 200px;
+  height: 4rem;
+  margin-top: 3rem;
+  border-radius: 15px;
+  background-color: #274C5B;
+  color: #fff;
+  font-size: larger;
+  border: none;
+  cursor: pointer;
+}/*# sourceMappingURL=contactform.css.map */

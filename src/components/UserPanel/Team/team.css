@@ -1,0 +1,45 @@
+.teampageheader{
+   width: 100%;
+   height: 70vh;
+
+}
+.teampagebox{
+   width: 100%;
+   height: 50vh;
+   background-image: url(../img/teampagebg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.teampagebox h1{
+  font-size: 3rem;
+  color: #274C5B;
+  font-family:'Times New Roman', Times, serif;
+}
+.teams{
+   width: 100%;
+   height: 90vh;
+
+}
+.teamrows{
+   width: 100%;
+    height: 90vh;
+    margin-top: 3rem;
+    display: flex;
+    gap: 2rem;
+}
+.teamitem{
+    width: 33%;
+    height:  60vh;
+
+    border-radius: 25px;
+
+}
+.teamitem img{
+    width: 100%;
+    height: 70%;
+    border-radius: 20px;
+
+}

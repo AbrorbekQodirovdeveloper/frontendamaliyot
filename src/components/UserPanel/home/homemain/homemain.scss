@@ -1,0 +1,103 @@
+.homemain{
+   width: 100%;
+   height: auto;
+
+}
+.onesection{
+  margin-top: 8rem;
+   width: 100%;
+    min-height: 50vh;
+    height:auto ;
+   margin-bottom:5rem;
+   display: flex;
+   gap: 3rem ;
+
+}
+.bg{
+  width: 70%;
+  min-height: 400px;
+  height: auto;
+  display: flex;
+  align-items: center;
+
+  background-image: url(../../img/homeonesection-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+.bg:nth-child(2){
+
+   background-image: url(../../img/homeonesection-2.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ .bgtitle{
+   width: 300px;
+   height: 200px;
+   margin-left: 3rem;
+   font-size: 1.5rem;
+ }
+ .bgtitle h3{
+   font-style:oblique;
+   line-height: 49px;
+   color: #FFFFFF;
+   font-weight: 500;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ .bgtitle h1{
+
+   font-size: 2.5rem;
+   color: #FFFFFF;
+
+ }
+ .bgtitle2{
+   width: 265px;
+   height: 200px;
+   margin-left: 3rem;
+
+ }
+ .bgtitle2 h3{
+   font-style:oblique;
+   line-height: 49px;
+   color: #7EB693;
+   font-weight: 500;
+   font-size: 1.5rem;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .bgtitle2 h1{
+   font-size: 2.5rem;
+   color: black;
+ }
+
+ @media screen and (max-width:400px) {
+      .onesection{
+         display: block;
+         margin: 0 auto;
+
+      }
+      .bg{
+         width: 90%;
+         margin: 0 auto;
+         margin-top: 2rem;
+      }
+      .bgtitle{
+         width: 100%;
+
+         margin-top: 2rem;
+         margin-bottom: 2rem;
+      }
+      .bgtitle h1{
+         font-size: 2rem;
+      }
+      .bgtitle2{
+        width: 100%;
+
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+     }
+     .bgtitle2 h1{
+      font-size: 2rem;
+       margin-right: 1rem;
+   }
+ }

@@ -1,0 +1,50 @@
+.ads {
+  width: 100%;
+  min-height: 80vh;
+  height: auto;
+  align-items: center;
+  display: flex;
+  gap: 3rem;
+  background-color: #F1F8F4;
+}
+
+.ads1 {
+  width: 33%;
+  height: 45vh;
+  background-image: url(../../../img/ads-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ads2 {
+  width: 33%;
+  height: 45vh;
+  background-image: url(../../../img/ads-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ads3 {
+  width: 33%;
+  height: 45vh;
+  background-image: url(../../../img/ads-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ads button {
+  padding: 20px 55px;
+  border-radius: 15px;
+  border: none;
+  font-size: x-large;
+  cursor: pointer;
+}/*# sourceMappingURL=ads.css.map */

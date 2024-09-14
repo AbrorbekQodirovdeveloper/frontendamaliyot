@@ -1,0 +1,82 @@
+.conection{
+    width: 100%;
+    height: 70vh;
+  
+    margin-top: 5rem;
+    display: flex;
+    gap: 3em;
+
+}
+.conectfullimg{
+   width: 50%;
+   min-height: 60vh;
+   height: auto;
+
+   background-image:  url(../../../img/contactusonesection.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 15px;
+}
+.conntectonbigtitle{
+   width: 50%;
+   min-height: 60vh;
+   height: auto;
+
+}
+.conntectonbigtitle h1{
+   font-size: 3rem;
+   color:  #274C5B;
+
+   margin-top: 1.5rem;
+   margin-bottom: 2rem;
+}
+.conntectonbigtitle p{
+   font-size: large;
+   margin-top: 2rem;
+   color: #525C60;
+}
+.contectmessage{
+   width: 50%;
+   height: 12vh;
+
+   display: flex;
+   margin-top: 2rem;
+  align-items: center;
+  border-radius: 15px;
+  background-color: rgb(243, 241, 238);
+
+}
+.contectimgbox{
+   width: 80px;
+   height: 80px;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: whitesmoke;
+   border-radius: 10px;
+}
+.contectphone{
+  width: 50%;
+  height: 12vh;
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+  border-radius: 15px;
+  background-color: rgb(243, 241, 238);
+
+}
+.contectimgbox i{
+   font-size: 2rem;
+   color: #7EB693;
+}
+.conecttitle h2{
+   color:#274C5B;
+   font-size: x-large;
+   margin-left: 1rem;
+}
+.conecttitle span{
+   font-size: large;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
